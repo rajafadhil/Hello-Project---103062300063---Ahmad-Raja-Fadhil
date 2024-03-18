@@ -20,8 +20,8 @@ for filename in os.listdir(folder_path):
 
 # Gabungkan semua DataFrames menjadi satu DataFrame besar berdasarkan kolom 'station'
 # Combine dataframes
-combined_df = pd.concat(dfs, ignore_index=True)
-
+combined_df = pd.concat(dfs)
+combined_df.reset_index(drop=True, inplace=True)
 # Filter DataFrame untuk tahun 2017
 df_2017 = combined_df.loc[combined_df['year'] == 2017]
 
