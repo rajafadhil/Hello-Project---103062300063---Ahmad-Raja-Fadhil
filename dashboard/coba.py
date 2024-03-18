@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Tentukan folder tempat file-file dataset disimpan
-folder_path = "C:/Users/RAJA/dicoding/dashboard"
+folder_path = "dashboard"
 
 # List untuk menyimpan DataFrames dari setiap file
 dfs = []
