@@ -5,7 +5,7 @@ import os
 
 
 # Tentukan folder tempat file-file dataset disimpan
-folder_path = "data_dashboard"
+folder_path = "dashboard/data_dashboard"
 
 # List untuk menyimpan DataFrames dari setiap file
 dfs = []
