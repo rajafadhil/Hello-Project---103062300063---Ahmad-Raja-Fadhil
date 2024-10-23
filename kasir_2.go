@@ -1,6 +1,7 @@
 //ini adalah tubes Ahmad Raja Fadhil
 package main
 
+// komentar
 import (
 	"fmt"
 	"time"
